@@ -25,6 +25,9 @@ candump can1
 -
 根据读取的ip，例如206，点开rm_config下的CMakeLists,修改rm_hw下的hero.yaml中的tigger_joint_motor的id，例如0x206.
 
+-
+注意看看上面的motor的id会不会与要更改的ip重复，以免发生冲突
+
 ## 5.打开launch文件
 
 ```
