@@ -16,7 +16,6 @@ git clone ssh地址
 
 ## 4. push修改后的文档
 
--
 ```
 git add 内容
 ```
@@ -26,12 +25,10 @@ git status
 ```
 查看
 
--
 ```
 git commit -m '注释'
 ```
 
--
 ```
 git push
 ```
