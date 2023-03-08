@@ -34,3 +34,8 @@
 ### ①<link name="${wheel_radius}"
 
 ### ②<xacro:func v1="" v2=""/>
+
+## 6.引入文件
+### <xacro:include filename="$(find mbot_description)/urdf/xacro/sensors/myrobot.xacro" />      <!--这个是引入文件的语法，find后面跟的是功能包-->
+
+    <base_car/>
