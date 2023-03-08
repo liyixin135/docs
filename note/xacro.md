@@ -22,7 +22,7 @@
 
 ## 4.定义
 ### ①<xacro:property name="wheel_radius" value="0.07625">
-类似于C语言的宏定义
+类似于C语言的宏定义 define
 
 ### ②<xacro:macro name="func" params="v1 v2">
 ###  <!-- 代码块 -->
