@@ -13,7 +13,6 @@ sudo minicom -s
 
 ## 5.将/dev/modem改为/dev/ttyUSB0或者/dev/ttyUSB1
 
-### 一般来说，0是裁判系统的串口，1是机器人nuc的串口
+### 一般来说，0是dbus的串口，1是裁判系统的串口
 
 ## 6.点击两次回车
-
