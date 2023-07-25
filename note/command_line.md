@@ -75,8 +75,10 @@ scp 路径+压缩包名称 用户名@IP
 xin@xin:~/Downloads$ scp ~/Downloads/sysbench-1.0.20.tar.gz dynamicx@192.168.1.122:~/
 ```
 回车后
-```
 sysbench-1.0.20.tar.gz                        100% 1474KB   2.3MB/s   00:00
-```
 拓展：
 命令行中开头 用户名@计算机名
+11. 获取其他ip设备的压缩包
+```
+scp 用户名+IP:路径+压缩包名称
+```
