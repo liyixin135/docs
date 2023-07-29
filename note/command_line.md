@@ -72,7 +72,7 @@ scp 路径+压缩包名称 用户名@IP
 ```
 例
 ```
-xin@xin:~/Downloads$ scp ~/Downloads/sysbench-1.0.20.tar.gz dynamicx@192.168.1.122:~/
+scp ~/Downloads/sysbench-1.0.20.tar.gz dynamicx@192.168.1.122:~/
 ```
 回车后
 sysbench-1.0.20.tar.gz                        100% 1474KB   2.3MB/s   00:00
