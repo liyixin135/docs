@@ -109,6 +109,8 @@ ssh-copy-id dynamicx@ip
 ```
 sudo systemctl stop rm_start.service start_master.service
 ```
+若是没关闭自启打开roscore，则会出现以下报错:
+ RLException: ERROR: could not contact master [http://机器人ip] The traceback for the RLException was written to the log file [master] killing on exit
 2.  开自启
 ```
 sudo systemctl start rm_start.service start_master.service
