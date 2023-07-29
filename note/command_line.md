@@ -104,3 +104,16 @@ tar zcvf FileName.tar.gz DirName
 ```
 ssh-copy-id dynamicx@ip
 ```
+## 15.  自启
+1.  关闭自启
+```
+sudo systemctl stop rm_start.service start_master.service
+```
+2.  开自启
+```
+sudo systemctl start rm_start.service start_master.service
+```
+3.  关闭加开启
+```
+sudo systemctl restart rm_start.service start_master.service
+```
