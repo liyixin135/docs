@@ -100,3 +100,7 @@ tar zxvf FileName.tar.gz
 ```
 tar zcvf FileName.tar.gz DirName
 ```
+## 14.  ssh免密登录
+```
+ssh-copy-id dynamicx@ip
+```
