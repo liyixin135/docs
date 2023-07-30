@@ -135,3 +135,12 @@ candump can0
 ```
 candump can1
 ```
+## 17.  rosbag
+总结 bag 文件的内容
+```
+rosbag info
+```
+播放bag文件的内容
+```
+rosbag play
+```
