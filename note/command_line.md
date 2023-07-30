@@ -144,3 +144,13 @@ rosbag info
 ```
 rosbag play
 ```
+## 17.  minicom
+1.  输入命令
+```
+sudo minicom -s
+```
+2.  选择第三个Serial port setup，回车
+3.  输入a或者A
+4.  将/dev/modem改为/dev/ttyUSB0或者/dev/ttyUSB1
+一般来说，0是dbus的串口，1是裁判系统的串口
+5.  点击两次回车，exit出来
