@@ -144,7 +144,7 @@ rosbag info
 ```
 rosbag play
 ```
-## 17.  minicom
+## 18.  minicom
 1.  输入命令
 ```
 sudo minicom -s
@@ -154,8 +154,22 @@ sudo minicom -s
 4.  将/dev/modem改为/dev/ttyUSB0或者/dev/ttyUSB1
 一般来说，0是dbus的串口，1是裁判系统的串口
 5.  点击两次回车，exit出来
-## 18.  修改为root用户
+## 19.  修改为root用户
 修改 /etc/passwd 文件，找到如下行，把用户ID修改为 0 ，如下所示：
 ```
 xin:x:0:1000:Xin:/home/xin:/bin/bash
+```
+## 20.  rosdep一键安装依赖
+先
+```
+rosdep update
+```
+```
+rosdep install --from-paths src --ignore-src --rosdistro=noetic -y
+```
+## 21.  创建工作空间
+```
+mkdir -p ~/catkin_ws2/src
+cd ~/catkin_ws2/src
+catkin_init_workspace
 ```
