@@ -80,7 +80,7 @@ sysbench-1.0.20.tar.gz                        100% 1474KB   2.3MB/s   00:00
 命令行中开头 用户名@计算机名
 ## 11. 获取其他ip设备的压缩包
 ```
-scp 用户名+IP:路径+压缩包名称
+scp -r 用户名+IP:路径+压缩包名称 自己路径
 ```
 ## 12. 解压/打包.tar
 解压
@@ -162,7 +162,7 @@ xin:x:0:1000:Xin:/home/xin:/bin/bash
 ## 20.  rosdep一键安装依赖
 先
 ```
-rosdep update
+rosdepc update
 ```
 ```
 rosdep install --from-paths src --ignore-src --rosdistro=noetic -y
@@ -172,4 +172,8 @@ rosdep install --from-paths src --ignore-src --rosdistro=noetic -y
 mkdir -p ~/catkin_ws2/src
 cd ~/catkin_ws2/src
 catkin_init_workspace
+```
+## 22. 鱼香ros
+```
+https://fishros.org.cn/forum/topic/20/%E5%B0%8F%E9%B1%BC%E7%9A%84%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E7%B3%BB%E5%88%97?lang=zh-CN
 ```
